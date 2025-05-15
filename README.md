@@ -41,3 +41,53 @@ An intelligent and interactive 4-player version of the strategic board game **Qu
 
 ```bash
 python quoridor_gui.py
+```
+Note: Upon launch, you will be asked to enter the number of human players (1 to 4). AI bots will auto-fill the remaining slots.
+
+---
+
+### 💡 Features
+| Feature                  | Description                                                     |
+| ------------------------ | --------------------------------------------------------------- |
+| 🧠 AI Decision Engine    | Minimax + Alpha-Beta pruning for smart wall/move decisions      |
+| 👥 1–4 Players Supported | Mix of humans and AI with dynamic handling                      |
+| 🧱 Wall Logic            | Validated placement, ghost preview, grid snapping               |
+| 🎨 Interactive GUI       | Made with Tkinter: hover effects, pawn rendering, wall counters |
+| 🔢 Wall Counters         | Real-time display of remaining walls for each player            |
+| ⏱️ Game Timer            | Tracks how long the session has been running                    |
+| 📜 How-To-Play Help      | “?” button shows in-game instructions                           |
+
+---
+
+###🧠 AI Logic (Minimax + Alpha-Beta)
+Each AI agent:
+- Calculates its shortest path to goal using BFS
+- Considers all valid moves and wall placements
+- Prunes the decision tree for faster performance
+- Occasionally places walls strategically to delay others
+- The evaluation function minimizes its own distance to goal while maximizing the obstacle for others.
+
+---
+
+### 📁 Project Structure
+quoridor_project/
+├── quoridor_game.py      # Game logic and AI (Minimax, wall validation, pathfinding)
+├── quoridor_gui.py       # GUI interface using Tkinter
+└── README.md             # You are here!
+
+
+---
+
+### 👨‍🏫 Developed By
+Muhammad Umer Ahmed Abbasi – 22K-4599 (Group Leader)
+Jawwad Ahmed – 22K-4648
+Muhammad Talha Asim – 22K-4589
+📘 Section: BCS-6C
+📘 Course: Artificial Intelligence
+📘 Instructor: Sir Abdullah Yaqoob
+
+---
+
+### 🏁 License
+This project is intended for academic use only. All AI strategies and GUI elements were built from scratch by the team.
+

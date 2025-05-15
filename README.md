@@ -136,53 +136,80 @@ if __name__ == "__main__":
 ### 📸 Gameplay Screenshots
 
 Here are gameplay snapshots of the Quoridor AI game:
-
+<br>
 Step 01: Open this folder in your favuorite python IDE like I used Visual Studio Code
+
 ![Screenshot 1](gameplay_screenshots/img1.png)
 <br>
+<br>
 Step 02: Run this command to execute quoridor_gui.py file to start the game
+
 ![Screenshot 2](gameplay_screenshots/img2.png)
 <br>
+<br>
 Step 03: Choose the number of human players, the rest of the players left will be AI bots implementing alpha beta alongwith minimax algo
+
 ![Screenshot 3](gameplay_screenshots/img3.png)
 <br>
+<br>
 Step 04: Click on the new GUI window opened
+
 ![Screenshot 4](gameplay_screenshots/img4.png)
 <br>
+<br>
 Step 05: Click on "?" button to learn the rules of the game and knowledge about the developers
+
 ![Screenshot 5](gameplay_screenshots/img5.png)
 <br>
+<br>
 Step 06: Legal moves are ghost-shadowed as green on mouse-hover on the cells of the grid
+
 ![Screenshot 6](gameplay_screenshots/img6.png)
 <br>
 ![Screenshot 7](gameplay_screenshots/img7.png)
 <br>
 ![Screenshot 8](gameplay_screenshots/img8.png)
 <br>
+<br>
 Step 07: Illegal moves are ghost-shadowed as red on mouse-hover on the cells of the grid
+
 ![Screenshot 9](gameplay_screenshots/img9.png)
 <br>
 ![Screenshot 10](gameplay_screenshots/img10.png)
 <br>
+<br>
 Step 08: Took my turn by moving one cell forward, and consequently other opponent pawns (AI bots here) took their turn also by maxmizing their goal using minimaz and alphabeta along with BFS
+
 ![Screenshot 11](gameplay_screenshots/img11.png)
 <br>
+<br>
 Step 09: On pressing "h" horizontal wall mode is activated, after which wall is ghost-shadowed as brown on the cell boundaries on mouse-hover
+
 ![Screenshot 12](gameplay_screenshots/img12.png)
 <br>
+<br>
 Step 10: After clicking the wall at the suitable place, the wall is placed covering two cells and the wall mode is turned off automatically, or you can press 'esc' button to come out of the wall mode without placing it
+
 ![Screenshot 13](gameplay_screenshots/img13.png)
 <br>
+<br>
 Step 11: On pressing "v" vertical wall mode is activated, after which wall is ghost-shadowed as brown on the cell boundaries on mouse-hover
+
 ![Screenshot 14](gameplay_screenshots/img14.png)
 <br>
+<br>
 Step 12: After clicking the wall at the suitable place, the wall is placed covering two cells and the wall mode is turned off automatically, or you can press 'esc' button to come out of the wall mode without placing it
+
 ![Screenshot 15](gameplay_screenshots/img15.png)
 <br>
+<br>
 Step 13: Here, red pawn (AI bot) reached the opposite side first, so it is declared winner. It shows how intelligent AI bots in term of adversary using alpha beta pruning that they try to win in the minimum and optimal moves. AI bots can also place walls against each other, but they did not do it because they did not find it maximizing their goal.
+
 ![Screenshot 16](gameplay_screenshots/img16.png)
 <br>
+<br>
 Note: You can choose any number of human players upto 4 depending upon the number of multiplayers, and the rest of the pawns will be AI agents running their individual alpha beta algorithms
+
 ![Screenshot 17](gameplay_screenshots/img17.png)
 <br>
 ![Screenshot 18](gameplay_screenshots/img18.png)

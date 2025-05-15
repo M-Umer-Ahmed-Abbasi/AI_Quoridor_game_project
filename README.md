@@ -3,6 +3,10 @@
 An intelligent and interactive 4-player version of the strategic board game **Quoridor**, built with Python and Tkinter. This project demonstrates **Minimax algorithm with Alpha-Beta pruning** in a dynamic, adversarial, multi-agent environment.
 
 ---
+## Project Report
+![project_report](AI Project Report.pdf)
+
+--- 
 
 ## 🎮 Game Description
 

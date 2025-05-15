@@ -74,7 +74,7 @@ Each AI agent:
 AI project/
 ├── quoridor_game.py      # Game logic and AI (Minimax, wall validation, pathfinding)
 ├── quoridor_gui.py       # GUI interface using Tkinter
-
+```
 
 ---
 

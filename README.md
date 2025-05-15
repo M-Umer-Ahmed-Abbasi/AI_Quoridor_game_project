@@ -4,7 +4,7 @@ An intelligent and interactive 4-player version of the strategic board game **Qu
 
 ---
 ## Project Report
-![project_report]("AI Project Report".pdf)
+![project_report](AI_Project_Report.pdf)
 
 --- 
 

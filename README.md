@@ -12,7 +12,7 @@ Read Project Report here:
 See the video here:
 ![Demo_Video](game_demo_vid.mp4)
 or alternatively, you can see video here also:
-![Demo_Video](https://drive.google.com/file/d/1P-CvktGuAagLaIlp8JKqTaDn11qg0IG4/view?usp=drive_link)
+![Demo_Video](https://drive.google.com/file/d/1P-CvktGuAagLaIlp8JKqTaDn11qg0IG4/view)
 
 Note: For more knowledge, please read full readme file. Below you will also find game rules, code logic, and gameplay screenshots.
 ---

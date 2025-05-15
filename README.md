@@ -59,7 +59,7 @@ Note: Upon launch, you will be asked to enter the number of human players (1 to 
 
 ---
 
-###🧠 AI Logic (Minimax + Alpha-Beta)
+### 🧠 AI Logic (Minimax + Alpha-Beta)
 Each AI agent:
 - Calculates its shortest path to goal using BFS
 - Considers all valid moves and wall placements
@@ -78,10 +78,10 @@ AI project/
 
 ---
 
-### 👨‍🏫 Developed By
-Muhammad Umer Ahmed Abbasi – 22K-4599 (Group Leader)
-Jawwad Ahmed – 22K-4648
-Muhammad Talha Asim – 22K-4589
+### 👨‍🏫 Developed By:
+- Muhammad Umer Ahmed Abbasi – 22K-4599 (Group Leader)
+- Jawwad Ahmed – 22K-4648
+- Muhammad Talha Asim – 22K-4589
 -📘Section: BCS-6C
 -📘Course: Artificial Intelligence
 -📘Instructor: Sir Abdullah Yaqoob

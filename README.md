@@ -135,47 +135,47 @@ if __name__ == "__main__":
 ---
 ### 📸 Gameplay Screenshots
 
-Below are gameplay visuals captured from the Quoridor 4-player AI project:
+Here are gameplay snapshots of the Quoridor AI game:
 
-<p align="center">
-  <img src="gameplay_screenshots/img1.png" width="300"/>
-  <img src="gameplay_screenshots/img2.png" width="300"/>
-  <img src="gameplay_screenshots/img3.png" width="300"/>
-</p>
+![Screenshot 1](gameplay_screenshots/img1.png)
+<br>
+![Screenshot 2](gameplay_screenshots/img2.png)
+<br>
+![Screenshot 3](gameplay_screenshots/img3.png)
+<br>
+![Screenshot 4](gameplay_screenshots/img4.png)
+<br>
+![Screenshot 5](gameplay_screenshots/img5.png)
+<br>
+![Screenshot 6](gameplay_screenshots/img6.png)
+<br>
+![Screenshot 7](gameplay_screenshots/img7.png)
+<br>
+![Screenshot 8](gameplay_screenshots/img8.png)
+<br>
+![Screenshot 9](gameplay_screenshots/img9.png)
+<br>
+![Screenshot 10](gameplay_screenshots/img10.png)
+<br>
+![Screenshot 11](gameplay_screenshots/img11.png)
+<br>
+![Screenshot 12](gameplay_screenshots/img12.png)
+<br>
+![Screenshot 13](gameplay_screenshots/img13.png)
+<br>
+![Screenshot 14](gameplay_screenshots/img14.png)
+<br>
+![Screenshot 15](gameplay_screenshots/img15.png)
+<br>
+![Screenshot 16](gameplay_screenshots/img16.png)
+<br>
+![Screenshot 17](gameplay_screenshots/img17.png)
+<br>
+![Screenshot 18](gameplay_screenshots/img18.png)
+<br>
+![Screenshot 19](gameplay_screenshots/img19.png)
+<br>
 
-<p align="center">
-  <img src="gameplay_screenshots/img4.png" width="300"/>
-  <img src="gameplay_screenshots/img5.png" width="300"/>
-  <img src="gameplay_screenshots/img6.png" width="300"/>
-</p>
-
-<p align="center">
-  <img src="gameplay_screenshots/img7.png" width="300"/>
-  <img src="gameplay_screenshots/img8.png" width="300"/>
-  <img src="gameplay_screenshots/img9.png" width="300"/>
-</p>
-
-<p align="center">
-  <img src="gameplay_screenshots/img10.png" width="300"/>
-  <img src="gameplay_screenshots/img11.png" width="300"/>
-  <img src="gameplay_screenshots/img12.png" width="300"/>
-</p>
-
-<p align="center">
-  <img src="gameplay_screenshots/img13.png" width="300"/>
-  <img src="gameplay_screenshots/img14.png" width="300"/>
-  <img src="gameplay_screenshots/img15.png" width="300"/>
-</p>
-
-<p align="center">
-  <img src="gameplay_screenshots/img16.png" width="300"/>
-  <img src="gameplay_screenshots/img17.png" width="300"/>
-  <img src="gameplay_screenshots/img18.png" width="300"/>
-</p>
-
-<p align="center">
-  <img src="gameplay_screenshots/img19.png" width="300"/>
-</p>
 
 
 ---

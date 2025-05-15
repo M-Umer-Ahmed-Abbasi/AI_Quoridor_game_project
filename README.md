@@ -8,7 +8,14 @@ Read Project Report here:
 ![Read_project_report](AI%20Project%20Report.pdf)
 
 --- 
+## Game Demo Video
+See the video here:
+![Demo_Video](game_demo_vid.mp4)
+or alternatively, you can see video here also:
+![Demo_Video](https://drive.google.com/file/d/1P-CvktGuAagLaIlp8JKqTaDn11qg0IG4/view?usp=drive_link)
 
+Note: For more knowledge, please read full readme file. Below you will also find game rules, code logic, and gameplay screenshots.
+---
 ## 🎮 Game Description
 
 **Quoridor** is a pathfinding strategy game where players race to reach the opposite side of the board while placing walls to block opponents — without completely trapping them. Our version enhances this classic:

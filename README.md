@@ -70,10 +70,10 @@ Each AI agent:
 ---
 
 ### 📁 Project Structure
-quoridor_project/
+```graphql
+AI project/
 ├── quoridor_game.py      # Game logic and AI (Minimax, wall validation, pathfinding)
 ├── quoridor_gui.py       # GUI interface using Tkinter
-└── README.md             # You are here!
 
 
 ---
@@ -82,9 +82,9 @@ quoridor_project/
 Muhammad Umer Ahmed Abbasi – 22K-4599 (Group Leader)
 Jawwad Ahmed – 22K-4648
 Muhammad Talha Asim – 22K-4589
-📘 Section: BCS-6C
-📘 Course: Artificial Intelligence
-📘 Instructor: Sir Abdullah Yaqoob
+-📘Section: BCS-6C
+-📘Course: Artificial Intelligence
+-📘Instructor: Sir Abdullah Yaqoob
 
 ---
 

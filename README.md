@@ -76,6 +76,62 @@ AI project/
 ├── quoridor_gui.py       # GUI interface using Tkinter
 ```
 
+### 🧱 Project Structure and Function Signatures
+### 📄 quoridor_game.py
+Contains all core logic for the game, including movement, wall rules, and AI.
+### Class: QuoridorGame
+```python
+class QuoridorGame:
+    def __init__(self, humanPlayers: list)
+
+    def getLegalMoves(self, playerId: int) -> list
+    def applyMove(self, playerId: int, action: tuple) -> None
+    def isWallValid(self, orientation: str, x: int, y: int) -> bool
+    def isWallBlocking(self, fromCell: tuple, toCell: tuple) -> bool
+    def getPlayerAt(self, x: int, y: int) -> Optional[int]
+    def getGoalDistance(self, start: tuple, playerId: int) -> int
+    def checkOccupied(self, x: int, y: int) -> bool
+    def checkWin(self, playerId: int) -> bool
+```
+### Class: AlphaBetaAgent
+```python
+class AlphaBetaAgent:
+    def __init__(self, playerId: int, depth: int = 1)
+
+    def getBestAction(self, gameRef: QuoridorGame) -> Optional[tuple]
+    def minimax(self, gameRef: QuoridorGame, depth: int,
+                alpha: float, beta: float, isMaximizing: bool,
+                playerId: int) -> tuple[float, Optional[tuple]]
+    def evaluateState(self, gameRef: QuoridorGame) -> float
+```
+### 📄 quoridor_gui.py
+Implements the graphical interface using tkinter.
+### Class: QuoridorInterface
+```python
+class QuoridorInterface:
+    def __init__(self, root: tk.Tk, humanPlayers: list)
+
+    def setWallMode(self, mode: Optional[str]) -> None
+    def showInstructions(self) -> None
+    def handleClick(self, event: tk.Event) -> None
+    def handleHover(self, event: tk.Event) -> None
+    def tryPlayerMove(self, x: int, y: int) -> None
+    def tryWallPlacement(self, px: int, py: int) -> None
+    def aiPlay(self) -> None
+    def advanceTurn(self) -> None
+    def updateTurnInfo(self) -> None
+    def updateTimer(self) -> None
+    def drawBoard(self) -> None
+```
+### 🔁 __main__ Launch Block
+```python
+if __name__ == "__main__":
+    root = tk.Tk()
+    numHumans = simpledialog.askinteger(...)
+    humanPlayers = list(range(1, numHumans + 1))
+    app = QuoridorInterface(root, humanPlayers)
+    root.mainloop()
+```
 ---
 
 ### 👨‍🏫 Developed By:
